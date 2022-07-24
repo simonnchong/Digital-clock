@@ -13,4 +13,8 @@
 
 ##### This is the sample output.
 
-![digial-clock-output](output.png)
+### 12 hour format
+![12-hour-format-digial-clock-output](12-hour-format.png)
+
+### 24 hour format
+![24-hour-format-digial-clock-output](24-hour-format.png)
