@@ -17,7 +17,7 @@ interface.configure(bg = BACKGROUND_COLOR) # background color
 
 def display_time():
     time_text = strftime(TIME_FORMAT) # define the time format
-    time_label = Label(interface, font = (FONT_STYLE, FONT_SIZE), background = BACKGROUND_COLOR, foreground = TEXT_COLOR, width = 7)
+    time_label = Label(interface, font = (FONT_STYLE, FONT_SIZE), background = BACKGROUND_COLOR, foreground = TEXT_COLOR)
     time_label.config(text = time_text) # set the text tag
     time_label.after(1000, display_time) # update the screen every 1 second, second argument receive non-argument function
     time_label.place(relx = 0.5, rely = 0.35, anchor = "center") 
